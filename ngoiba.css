@@ -29,6 +29,7 @@ p {
 
 h1 {
 	color: green;
+	margin-top: 80px;
 }
 
 h2 {
@@ -46,8 +47,4 @@ section{
 
 li {
 	padding: 5px;
-}
-
-sub-heading {
-	font-style: bold;
 }
