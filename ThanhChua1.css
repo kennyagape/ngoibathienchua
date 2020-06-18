@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: auto;
+  height: 800px;
+  overflow: auto;
+  border: 1px solid blue; 
+}
+
+.left {
+	float: right;
+  width: 49%;
+}
+
+.right {
+  width: 49%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+	color: green;
+	text-align: center;
+}
+
+i {
+	color: blue;
+}
