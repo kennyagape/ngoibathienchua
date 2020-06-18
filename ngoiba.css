@@ -40,9 +40,14 @@ p {
 h1 {
 	color: green;
 	margin-top: 80px;
+	text-align: center;
 }
 
 h2 {
+	color: red;
+}
+
+h3 {
 	color: red;
 }
 
@@ -57,4 +62,18 @@ section{
 
 li {
 	padding: 5px;
+}
+
+.left {
+ float: left;
+ clear: left;
+}
+
+img {
+  max-width: auto;
+  height: auto;
+}
+
+p {
+	text-align: center-right;
 }
